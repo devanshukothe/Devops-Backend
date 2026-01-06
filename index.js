@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const PORT = process.env.PORT || 7000;
+const PORT = 4000;
 const MONGO_URL = "mongodb+srv://CRUD:CRUD@cluster0.rl9h05d.mongodb.net/?appName=Cluster0";
 
 async function startServer() {
